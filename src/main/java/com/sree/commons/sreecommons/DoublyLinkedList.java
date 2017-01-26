@@ -16,6 +16,11 @@ public class DoublyLinkedList {
 		return head == null;
 	}
 	
+	//head = null data null
+	//new = null data head
+	//head.previous = new
+	//head = new
+	
 	public void addFront(String data){
 		if(head == null){
 			head = new Node(null, data, null);
@@ -57,6 +62,7 @@ public class DoublyLinkedList {
 			current.previous = newNode;
 			head = newNode;
 		} else {
+			
 			Node newNode =  new Node(current.previous, data, current);
 			current.previous.next = newNode;
 			current.previous = newNode;

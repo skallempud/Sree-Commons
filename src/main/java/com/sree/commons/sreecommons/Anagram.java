@@ -9,13 +9,14 @@ package com.sree.commons.sreecommons;
  */
 public class Anagram {
 	/**
-	 * Check if two words are anagram.
+	 * Check if two words are anagram. Example "schoolmaster" and "theclassroom" 
 	 * 
 	 * @param word
 	 * @param anagram
 	 * @return
 	 */
 	public static boolean isAnagram(String word, String anagram) {
+		
 		if (word.length() != anagram.length()) {
 			return false;
 		}
