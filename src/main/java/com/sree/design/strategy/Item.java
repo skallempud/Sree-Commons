@@ -22,22 +22,12 @@ public class Item {
 	public String getUpcCode() {
 		return upcCode;
 	}
-	/**
-	 * @param upcCode the upcCode to set
-	 */
-	public void setUpcCode(String upcCode) {
-		this.upcCode = upcCode;
-	}
+
 	/**
 	 * @return the amount
 	 */
 	public BigDecimal getAmount() {
 		return amount;
 	}
-	/**
-	 * @param amount the amount to set
-	 */
-	public void setAmount(BigDecimal amount) {
-		this.amount = amount;
-	}
+
 }

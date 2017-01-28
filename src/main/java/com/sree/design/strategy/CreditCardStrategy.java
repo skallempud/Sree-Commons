@@ -30,23 +30,13 @@ public class CreditCardStrategy implements PaymentStrategy{
 		return cardNum;
 	}
 
-	public void setCardNum(String cardNum) {
-		this.cardNum = cardNum;
-	}
 
 	public String getCvv() {
 		return cvv;
-	}
-
-	public void setCvv(String cvv) {
-		this.cvv = cvv;
 	}
 
 	public Date getExpiry() {
 		return expiry;
 	}
 
-	public void setExpiry(Date expiry) {
-		this.expiry = expiry;
-	}
 }
