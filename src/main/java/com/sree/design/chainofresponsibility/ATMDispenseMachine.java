@@ -12,7 +12,7 @@ public class ATMDispenseMachine {
 		DispenseChain tenDispenser = new Dispense10Notes();
 
 		this.chain = fiftyDispenser;
-		this.chain.setNextChain(twentyDispenser);
+		fiftyDispenser.setNextChain(twentyDispenser);
 		twentyDispenser.setNextChain(tenDispenser);
 	}
 	

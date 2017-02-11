@@ -1,17 +1,17 @@
-package com.sree.commons.pojo;
+package com.sree.commons.sreecommons;
 
-public class LinkedList {
+public class SinglyLinkedList {
 
 	private Node head;
 	private Node tail;
 	
-	public LinkedList(){
+	public SinglyLinkedList(){
 		this.tail = new Node("second", null);
 		this.head = new Node("first", head);
 	}
 	
 	public static void main(String[] args){
-		new LinkedList();
+		new SinglyLinkedList();
 	}
 	
 	public static class Node{

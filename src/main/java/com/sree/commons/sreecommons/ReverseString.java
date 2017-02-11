@@ -5,6 +5,7 @@ public class ReverseString {
 	public static void main(String[] args){
 	
 		String test = "abcdefgh";
+		System.out.println("String to be reversed:" + test);
 		System.out.println("Reversed string using string builder:" + reverseUsingStringBuilder(test));
 		System.out.println("Reversed string using recursive:" + reverseRecursively(test));
 	}
